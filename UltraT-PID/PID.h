@@ -5,7 +5,7 @@
 #include "sensores.h"
 #include "DRV8833.h"
 
-DRV8833 motor(19 , 18, 4, 23); // caçadora 19, 18, 23, 4
+DRV8833 motor(18, 19, 4, 23); // caçadora 19, 18, 23, 4 // ultra t 19, 18, 23, 4
 
 
 // Leitura dos sensores

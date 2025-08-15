@@ -69,26 +69,26 @@ void setDefaultColor(uint8_t r, uint8_t g, uint8_t b) {
   
 
 void ledDetection() {
-  setDefaultColor(0, 150, 0); // Define a cor padrão azul para todos os LEDs
+  setDefaultColor(255, 0, 0); // Define a cor padrão azul para todos os LEDs
   leituraSensores();
    
     if (leitura[0]) {
     Serial.println("ESQUERDA LATERAL DETECTADO");
-    pixels.setPixelColor(LED1, pixels.Color(0, 0, 150)); // Acende o LED 5 em azul
+    pixels.setPixelColor(LED1, pixels.Color(0, 0, 255)); // Acende o LED 5 em azul
     
     }
     if (leitura[1]) {
     Serial.println("ESQUERDA FRONTAL DETECTADO");
-    pixels.setPixelColor(LED4, pixels.Color(150, 150, 0)); // Acende o LED 4 em amarelo (?)
+    pixels.setPixelColor(LED4, pixels.Color(0, 255, 0)); // Acende o LED 4 em amarelo (?)
 
     }
     if (leitura[2]) {
     Serial.println("DIREITA FRONTAL DETECTADO");
-    pixels.setPixelColor(LED5, pixels.Color(150, 150, 150)); // Acende o LED 5 em branco
+    pixels.setPixelColor(LED5, pixels.Color(0, 255, 0)); // Acende o LED 5 em branco
     }
     if (leitura[3]) {
     Serial.println("DIREITA LATERAL DETECTADO");
-    pixels.setPixelColor(LED7, pixels.Color(150, 150, 0)); // Acende o LED 5 em roxo
+    pixels.setPixelColor(LED7, pixels.Color(0, 0, 255)); // Acende o LED 5 em roxo
     }
 
    else {

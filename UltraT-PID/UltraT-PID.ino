@@ -77,7 +77,7 @@ void loop() {
     IR.update();
  
   if (IR.prepare()) { // número 1 no controle
-    ledLight(150, 0, 0);
+    ledLight(0, 0, 255);
     motor.stop();
     Serial.println("-> sumo prepare");
   }
@@ -88,7 +88,7 @@ void loop() {
   
   else if (IR.on()) { // número 2 no controle
     pixels.clear();
-    ledLight(0, 150, 0);
+    ledLight(0, 255, 0);
 
     switch (strategy) {
       default: //fallthrough
@@ -138,12 +138,13 @@ void strategySelection() {
   if (cmd <= 8) {
     const int num_leds = cmd % 8;
     for(uint8_t i = 0; i < num_leds; i++) {
-      switch ((cmd-3) % 5) { // Acende o LED de 0 ao número comando numa cor +- diferente cada número
+      switch ((cmd-3) % 6) { // Acende o LED de 0 ao número comando numa cor +- diferente cada número
         case 0: pixels.setPixelColor(i, pixels.Color(150, 0,   0  )); break;
         case 1: pixels.setPixelColor(i, pixels.Color(150, 150, 150)); break;
         case 2: pixels.setPixelColor(i, pixels.Color(0,   0,   150)); break;
         case 3: pixels.setPixelColor(i, pixels.Color(255, 150, 0  )); break;
         case 4: pixels.setPixelColor(i, pixels.Color(0,   150, 255)); break;
+        case 5: pixels.setPixelColor(i, pixels.Color(0,   0,   255)); break;
       } pixels.show();
     }
     delay(80);

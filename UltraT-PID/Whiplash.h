@@ -6,7 +6,7 @@
 bool achou = false;
 void whiplash() { // andar para frente e, no momento em que um dos sensores laterais detectarem, acionar e travar em iSeeYou()
   leituraSensores();
-  if (leitura[0] || leitura[3]) {
+  if (leitura[1] || leitura[2]) {
     achou = true;
     motor.stop();
   }

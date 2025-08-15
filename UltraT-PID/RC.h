@@ -31,8 +31,8 @@ void rc() {
 
     int move = constrain((R2 + L2), -1023, 1023);
 
-    int vel_esq = constrain(-RS + (R2 - L2), -1023, 1023);
-    int vel_dir = constrain(RS + (R2 - L2), -1023, 1023);
+    int vel_esq = constrain(RS + (R2 - L2), -1023, 1023);
+    int vel_dir = constrain(-RS + (R2 - L2), -1023, 1023);
 
 
     motor.move(vel_esq, vel_dir);
