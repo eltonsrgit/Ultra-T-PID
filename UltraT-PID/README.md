@@ -7,7 +7,7 @@
   <sub><em><b>Figura 1:</b> Desenho técnico.</em></sub>
 </div> 
   
-# Sensores JSUMO JS40F
+# Sensores 
 Ultra T tem 4 sensores. 2 frontais e 2 laterais. Por se tratar dessa categoria, seu tamanho ajuda na montagem e na organização dos demais componentes da eletrônica pois o robô pode ter no máximo 500 gramas e 10cm X 10cm.                                                 
 - Pinagem no código:                                                                                            
   > Sensor Lateral Esquerdo pino 35
@@ -31,26 +31,33 @@ Ultra T tem 4 sensores. 2 frontais e 2 laterais. Por se tratar dessa categoria, 
   <sub><em><b>Figura 2:</b> Sensor Jsumo</em></sub>
 </div>
 
+# Sensor Receptor IR  
+Há ainda um receptor infravermelho para o modo autonomo, para que o robô receba os comandos do juiz.  
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/2eb800f3-2c23-4c45-bf8f-d138ca266f0e" width="250">
+  <br>
+  <sub><em><b>Figura 3:</b> Receptor IR VS1838B.</em></sub>
+</div>
 
 # Placa Eletrônica
 A placa foi projetada e desenvolvida para o controlador ESP32 e duas ponte H DRV8833.
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/ca5fbf65-0934-4d7f-98d1-76e312d2447a" width="400" alt="Sensor">
+  <img src="https://github.com/user-attachments/assets/ca5fbf65-0934-4d7f-98d1-76e312d2447a" width="400">
   <br>
-  <sub><em><b>Figura 3:</b> Placa eletrônica desenvolvida especificamente para um mini sumo.</em></sub>
+  <sub><em><b>Figura 4:</b> Placa eletrônica desenvolvida especificamente para um mini sumo.</em></sub>
 </div>  
 
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/bcabcb4d-5d36-4fa3-80d5-55d7ac197249" width="400">
   <br>
-  <sub><em><b>Figura 4:</b> Placa com inagem.</em></sub>
+  <sub><em><b>Figura 5:</b> Placa com inagem.</em></sub>
 </div>
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/413e08a6-89bb-4d18-8af3-694319948d8f" width="400">
   <br>
-  <sub><em><b>Figura 5:</b> Pinagem.</em></sub>
+  <sub><em><b>Figura 6:</b> Pinagem.</em></sub>
 </div>
 
 # ESP32  
@@ -60,7 +67,7 @@ Controlador escolhido por ser menor que um arduino comum e oferecer melhor proce
 <div align="center">
   <img src="https://github.com/user-attachments/assets/99d41dac-efae-4d13-92c0-32b5b8d3c3d4" width="250">
   <br>
-  <sub><em><b>Figura 6:</b> ESP32.</em></sub>
+  <sub><em><b>Figura 7:</b> ESP32.</em></sub>
 </div>  
 
 # DRV8833  
@@ -70,7 +77,7 @@ Controlador escolhido por ser menor que um arduino comum e oferecer melhor proce
 <div align="center">
   <img src="https://github.com/user-attachments/assets/99019e53-a489-4d2f-bde0-24088f7c3eab" width="400">
   <br>
-  <sub><em><b>Figura 7:</b> Ponte H DRV8833.</em></sub>
+  <sub><em><b>Figura 8:</b> Ponte H DRV8833.</em></sub>
 </div>  
 
 
