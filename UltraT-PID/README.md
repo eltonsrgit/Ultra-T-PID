@@ -28,7 +28,7 @@ Ultra T tem 4 sensores. 2 frontais e 2 laterais. Por se tratar dessa categoria, 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/99f5d452-e4a5-4368-93ab-6d7e7bb192d1" width="250" alt="Sensor">
   <br>
-  <sub><em><b>Figura 2:</b> Sensor Jsumo</em></sub>
+  <sub><em><b>Figura 2:</b> Sensor Jsumo.</em></sub>
 </div>
 
 # Sensor Receptor IR  
