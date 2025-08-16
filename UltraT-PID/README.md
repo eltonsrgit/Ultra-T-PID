@@ -40,7 +40,7 @@ Há ainda um receptor infravermelho para o modo autonomo, para que o robô receb
 </div>
 
 # Placa Eletrônica
-A placa foi projetada e desenvolvida para o controlador ESP32 e duas ponte H DRV8833.
+A placa foi projetada e desenvolvida no site EasyEDA para o controlador ESP32 e duas ponte H DRV8833.
 <div align="center">
   <img src="https://github.com/user-attachments/assets/ca5fbf65-0934-4d7f-98d1-76e312d2447a" width="400">
   <br>
